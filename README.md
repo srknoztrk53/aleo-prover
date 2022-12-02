@@ -21,6 +21,8 @@ pkg-config
 
 Run `cargo build --release` to build the binary.
 
+To enable GPU support, use `cargo build --release --features cuda` when building the binary. Obviously you will need to install the CUDA runtime.
+
 ## Usage
 
 Please refer to the usage help (`target/release/aleo-prover --help`):
